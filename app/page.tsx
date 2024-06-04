@@ -1,3 +1,9 @@
+import Header from "./_components/header";
+
 export default function Home() {
-  return <div className="bg-black px-5">hello</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
